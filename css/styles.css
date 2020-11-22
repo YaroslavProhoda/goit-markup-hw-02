@@ -1,0 +1,62 @@
+/* Палитра цветов */
+/* Цвет фона #FFFFFF */
+/* Цвет заголовка #212121 */
+/* Цвет основного текста #757575 */
+/* Цвет акцента #2196F3 */
+/* Вторичный фон кнопок #F5F4FA */
+
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --bg-color: #ffffff;
+  --secondary-buttons-bg: #f5f4fa;
+}
+.body {
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--title-text-color);
+}
+.list {
+  list-style: none;
+}
+.nav-menu .nav-li.current {
+  color: var(--accent-color);
+}
+.nav-menu .nav-li {
+  color: var(--title-text-color);
+  background-color: var(--bg-color);
+}
+.nav-li:hover,
+.nav-li:focus {
+  color: var(--accent-color);
+  background-color: var(--bg-color);
+}
+.address-li {
+  color: var(--primary-text-color);
+  background-color: var(--bg-color);
+}
+.address-li:hover,
+.address-li:focus {
+  color: var(--accent-color);
+  background-color: var(--bg-color);
+}
+.button.primary {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+}
+.button.primary:hover {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-buttons-bg);
+}
+.button.secondary:focus,
+.button.secondary:hover {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+}
